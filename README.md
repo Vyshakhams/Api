@@ -21,3 +21,16 @@ an API to serve that data in the json
 * Created classes and using Meta class in views.py and initialized model, fields and depth.
 * Fetching data in views.py file using get_queryset method.
 * Added path in url.py. 
+******Git steps****************  
+* Commited to git 
+  >> git remote add origin https://github.com/Vyshakhams/Api 
+  >> git push -u origin master
+******Deployment steps**********  
+* Hosting code in https://www.pythonanywhere.com/
+* Clone the code in console
+* Install virtualenvironment
+* Install rest_framework
+* Set path of our created virtualenvironment
+* Change path in WSGI file
+* Import static file and set ROOT_PATH in setting.py.
+* And last step Reload the app.
